@@ -1,4 +1,5 @@
 import { IoMenu } from "react-icons/io5";
+import { Button } from "./Button";
 
 export const Navbar = () => {
   return (
@@ -11,9 +12,10 @@ export const Navbar = () => {
         </button>
         {/* heading Logo */}
         <h3 className="font-satisfy text-3xl">Plant Life</h3>
-        <button className="border border-gray-50 px-2 hover:bg-gray-50 hover:text-black transition-all duration-300 cursor-pointer">
+        {/* <button className="border border-gray-50 px-2 hover:bg-gray-50 hover:text-black transition-all duration-300 cursor-pointer">
           Login
-        </button>
+        </button> */}
+        <Button />
       </header>
     </div>
   );
