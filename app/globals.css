@@ -6,6 +6,8 @@
 
 @theme {
   --background-image-banner: var(--bg-banner);
+  --font-roboto: var(--font-roboto);
+  --font-satisfy: var(--font-satisfy);
 }
 /*:root {*/
 /*  --background: #ffffff;*/
