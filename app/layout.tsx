@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Satisfy } from "next/font/google";
 import "./globals.css";
+import { ReduxProvider } from "./providers/ReduxProvider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${satisfy.variable}  antialiased`}>
-        {children}
+        <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>
   );

@@ -1,10 +1,11 @@
 import { IoMenu } from "react-icons/io5";
-import { Button } from "./Button";
+import { Button } from "./Button/Button";
+import { Menu } from "./Menu/Menu";
 
 export const Navbar = () => {
   return (
-    <div className="p-6">
-      <header className="flex justify-between">
+    <div className="px-10 py-12">
+      <header className="flex justify-between items-start">
         {/* menu button */}
         <button className="flex items-center gap-2">
           <IoMenu className="h-6 w-6" />
@@ -12,10 +13,10 @@ export const Navbar = () => {
         </button>
         {/* heading Logo */}
         <h3 className="font-satisfy text-3xl">Plant Life</h3>
-        {/* <button className="border border-gray-50 px-2 hover:bg-gray-50 hover:text-black transition-all duration-300 cursor-pointer">
-          Login
-        </button> */}
-        <Button />
+        <div className="relative">
+          <Menu />
+          <Button />
+        </div>
       </header>
     </div>
   );
