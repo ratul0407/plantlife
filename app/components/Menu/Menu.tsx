@@ -50,8 +50,6 @@ export const Menu = () => {
       variants={variants}
       animate={isMenuOpen ? "open" : "close"}
       className="menu"
-    >
-      Menu
-    </motion.div>
+    ></motion.div>
   );
 };

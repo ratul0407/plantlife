@@ -9,7 +9,6 @@ export const Navbar = () => {
         {/* menu button */}
         <button className="flex items-center gap-2">
           <IoMenu className="h-6 w-6" />
-          <span className="text-lg">Menu</span>
         </button>
         {/* heading Logo */}
         <h3 className="font-satisfy text-3xl">Plant Life</h3>

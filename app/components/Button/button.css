@@ -38,6 +38,7 @@
 .el:hover .perspective p:nth-of-type(2) {
   opacity: 1;
 }
+
 .perspective {
   width: 100%;
   height: 100%;
