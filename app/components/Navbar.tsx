@@ -11,7 +11,7 @@ export const Navbar = () => {
           <IoMenu className="h-6 w-6" />
         </button>
         {/* heading Logo */}
-        <h3 className="font-satisfy text-3xl">Plant Life</h3>
+        <h3 className="font-satisfy text-3xl">Plant Life again</h3>
         <div className="relative">
           <Menu />
           <Button />
